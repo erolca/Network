@@ -49,11 +49,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Better Data Sender", "Bette
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stream", "Stream", "{618F97AA-D685-48F3-8A57-94BA209B60AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.25.1. Demonstrate MemoryStream", "15.25.1. Demonstrate MemoryStream.\15.25.1. Demonstrate MemoryStream.csproj", "{0156CBA5-DB13-40E3-A97E-EEE419B0DF36}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.25.1. Demonstrate MemoryStream", "15.25.1. Demonstrate MemoryStream\15.25.1. Demonstrate MemoryStream.csproj", "{0156CBA5-DB13-40E3-A97E-EEE419B0DF36}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Memory Stream", "Memory Stream", "{22B43605-E143-4AF9-B1DD-708DAEA31119}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Create a MemoryStream", "1. Create a MemoryStream\1. Create a MemoryStream.csproj", "{8DE94F13-AB57-414E-9677-C615AE660503}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. MemoryStream.Write", "MemoryStream.Write\2. MemoryStream.Write.csproj", "{4F6EA7C8-65AE-4A2A-A812-6D9337FE6DEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Use MemoryStream and BinaryWriter", "3. Use MemoryStream and BinaryWriter\3. Use MemoryStream and BinaryWriter.csproj", "{1BF343BA-20DC-427C-985B-B65A276127AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -149,6 +153,14 @@ Global
 		{8DE94F13-AB57-414E-9677-C615AE660503}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DE94F13-AB57-414E-9677-C615AE660503}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DE94F13-AB57-414E-9677-C615AE660503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F6EA7C8-65AE-4A2A-A812-6D9337FE6DEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F6EA7C8-65AE-4A2A-A812-6D9337FE6DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F6EA7C8-65AE-4A2A-A812-6D9337FE6DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F6EA7C8-65AE-4A2A-A812-6D9337FE6DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF343BA-20DC-427C-985B-B65A276127AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF343BA-20DC-427C-985B-B65A276127AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF343BA-20DC-427C-985B-B65A276127AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF343BA-20DC-427C-985B-B65A276127AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -174,6 +186,8 @@ Global
 		{0156CBA5-DB13-40E3-A97E-EEE419B0DF36} = {618F97AA-D685-48F3-8A57-94BA209B60AA}
 		{22B43605-E143-4AF9-B1DD-708DAEA31119} = {618F97AA-D685-48F3-8A57-94BA209B60AA}
 		{8DE94F13-AB57-414E-9677-C615AE660503} = {22B43605-E143-4AF9-B1DD-708DAEA31119}
+		{4F6EA7C8-65AE-4A2A-A812-6D9337FE6DEE} = {22B43605-E143-4AF9-B1DD-708DAEA31119}
+		{1BF343BA-20DC-427C-985B-B65A276127AF} = {22B43605-E143-4AF9-B1DD-708DAEA31119}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF3A1F22-B9E9-4137-9DD2-99E0A39FB330}

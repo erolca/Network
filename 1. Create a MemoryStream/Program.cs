@@ -19,7 +19,13 @@ class MemStreamApp
         {
             Console.Write("{0,-3}", b);
         }
-   
+
+        /**/
+        Console.WriteLine("\");
+        m.Seek(+3, SeekOrigin.Begin);
+        byte c = (byte)m.ReadByte();
+        Console.WriteLine("Value: " + c);
+
         m.Close();
     }
 }
