@@ -10,6 +10,7 @@ class MainClass
         IPHostEntry iphe = Dns.GetHostByAddress(test);
 
         Console.WriteLine("Information for {0}", test.ToString());
+        Console.WriteLine();
 
         Console.WriteLine("Host name: {0}", iphe.HostName);
     }

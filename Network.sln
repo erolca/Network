@@ -71,6 +71,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. Using MemoryStream to Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. Convert a string into an array of bytes", "9. Convert a string into an array of bytes\9. Convert a string into an array of bytes.csproj", "{464E0D6E-1751-42E1-A6B3-3D278551F9CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.2.5. Get IPAddress from IPHostEntry", "33.2.5. Get IPAddress from IPHostEntry\33.2.5. Get IPAddress from IPHostEntry.csproj", "{4C789E95-ACE9-4BB4-92FE-582989A56247}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.2.6. Get IPHostEntry by host name", "33.2.6. Get IPHostEntry by host name\33.2.6. Get IPHostEntry by host name.csproj", "{E2E8DD13-BE74-417D-850D-A858C60CBD75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.2.7. Resolve a Host name", "33.2.7. Resolve a Host name\33.2.7. Resolve a Host name.csproj", "{3EC040EB-4CD2-4C81-B627-97D469B22255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.2.8. Get Address List from HostEntry", "33.2.8. Get Address List from HostEntry\33.2.8. Get Address List from HostEntry.csproj", "{6575ECD8-66B7-48B1-9C8D-9D40FB342D93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.2.9. Use AsyncCallback event to resolve a host name", "33.2.9. Use AsyncCallback event to resolve a host name\33.2.9. Use AsyncCallback event to resolve a host name.csproj", "{30052060-4135-49FD-9A1A-8085F534939B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.2.10. Dns Lookup", "33.2.10. Dns Lookup\33.2.10. Dns Lookup.csproj", "{F3058A9A-2D9E-4D53-AB87-234A2C9E0A21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -197,6 +209,30 @@ Global
 		{464E0D6E-1751-42E1-A6B3-3D278551F9CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{464E0D6E-1751-42E1-A6B3-3D278551F9CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{464E0D6E-1751-42E1-A6B3-3D278551F9CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C789E95-ACE9-4BB4-92FE-582989A56247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C789E95-ACE9-4BB4-92FE-582989A56247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C789E95-ACE9-4BB4-92FE-582989A56247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C789E95-ACE9-4BB4-92FE-582989A56247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2E8DD13-BE74-417D-850D-A858C60CBD75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E8DD13-BE74-417D-850D-A858C60CBD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E8DD13-BE74-417D-850D-A858C60CBD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E8DD13-BE74-417D-850D-A858C60CBD75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EC040EB-4CD2-4C81-B627-97D469B22255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC040EB-4CD2-4C81-B627-97D469B22255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC040EB-4CD2-4C81-B627-97D469B22255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC040EB-4CD2-4C81-B627-97D469B22255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6575ECD8-66B7-48B1-9C8D-9D40FB342D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6575ECD8-66B7-48B1-9C8D-9D40FB342D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6575ECD8-66B7-48B1-9C8D-9D40FB342D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6575ECD8-66B7-48B1-9C8D-9D40FB342D93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30052060-4135-49FD-9A1A-8085F534939B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30052060-4135-49FD-9A1A-8085F534939B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30052060-4135-49FD-9A1A-8085F534939B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30052060-4135-49FD-9A1A-8085F534939B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3058A9A-2D9E-4D53-AB87-234A2C9E0A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3058A9A-2D9E-4D53-AB87-234A2C9E0A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3058A9A-2D9E-4D53-AB87-234A2C9E0A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3058A9A-2D9E-4D53-AB87-234A2C9E0A21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -230,6 +266,12 @@ Global
 		{71C114D5-EBD9-47BF-953B-C81909A6E4DF} = {22B43605-E143-4AF9-B1DD-708DAEA31119}
 		{C7BA78FD-E7A5-4563-BFE5-AB52EEFD7288} = {22B43605-E143-4AF9-B1DD-708DAEA31119}
 		{464E0D6E-1751-42E1-A6B3-3D278551F9CD} = {22B43605-E143-4AF9-B1DD-708DAEA31119}
+		{4C789E95-ACE9-4BB4-92FE-582989A56247} = {66A8C3E6-0226-43EC-8242-0CCB2E9ECDFD}
+		{E2E8DD13-BE74-417D-850D-A858C60CBD75} = {66A8C3E6-0226-43EC-8242-0CCB2E9ECDFD}
+		{3EC040EB-4CD2-4C81-B627-97D469B22255} = {66A8C3E6-0226-43EC-8242-0CCB2E9ECDFD}
+		{6575ECD8-66B7-48B1-9C8D-9D40FB342D93} = {66A8C3E6-0226-43EC-8242-0CCB2E9ECDFD}
+		{30052060-4135-49FD-9A1A-8085F534939B} = {66A8C3E6-0226-43EC-8242-0CCB2E9ECDFD}
+		{F3058A9A-2D9E-4D53-AB87-234A2C9E0A21} = {66A8C3E6-0226-43EC-8242-0CCB2E9ECDFD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF3A1F22-B9E9-4137-9DD2-99E0A39FB330}
