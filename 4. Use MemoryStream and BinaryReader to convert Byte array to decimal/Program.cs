@@ -24,6 +24,7 @@ class Test
             using (BinaryReader reader = new BinaryReader(stream))
             {
                 return reader.ReadDecimal();
+                
             }
         }
     }
@@ -41,6 +42,10 @@ class Test
         // Convert a byte array to a decimal and display.
         Console.WriteLine(ByteArrayToDecimal(b));
 
+        /**/
+        byte[] value = WriteDefaultValues();
+        DisplayValues(value);
+
 
         /**/
         byte[] b1 = BitConverter.GetBytes(255);
@@ -48,4 +53,49 @@ class Test
         byte[] b3 = BitConverter.GetBytes(0x25FF63);
 
     }
+
+
+    public static byte[] WriteDefaultValues()
+    {
+        using (MemoryStream stream = new MemoryStream())
+        {
+            using (BinaryWriter writer = new BinaryWriter(stream))
+            {
+                writer.Write(1.250F);
+                writer.Write(@"c:\Temp");
+                writer.Write(10);
+                writer.Write(true);
+                return stream.ToArray();
+            }
+        }
+    }
+
+    public static void DisplayValues(byte[] src)
+    {
+        float aspectRatio;
+        string tempDirectory;
+        int autoSaveTime;
+        bool showStatusBar;
+
+        using (MemoryStream stream = new MemoryStream(src))
+        {
+            using (BinaryReader reader = new BinaryReader(stream))
+            {
+                aspectRatio = reader.ReadSingle();
+                tempDirectory = reader.ReadString();
+                autoSaveTime = reader.ReadInt32();
+                showStatusBar = reader.ReadBoolean();
+            }
+        }
+
+            Console.WriteLine("Aspect ratio set to: " + aspectRatio);
+            Console.WriteLine("Temp directory is: " + tempDirectory);
+            Console.WriteLine("Auto save time set to: " + autoSaveTime);
+            Console.WriteLine("Show status bar: " + showStatusBar);
+        
+    }
+
+
+
+
 }
