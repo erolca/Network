@@ -83,6 +83,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.2.9. Use AsyncCallback e
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.2.10. Dns Lookup", "33.2.10. Dns Lookup\33.2.10. Dns Lookup.csproj", "{F3058A9A-2D9E-4D53-AB87-234A2C9E0A21}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Uri", "Uri", "{F6E84BC0-63CB-4933-BA1A-5FF7793EAF01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.3.1. Use Uri", "33.3.1. Use Uri\33.3.1. Use Uri.csproj", "{70119703-2B21-499C-8D52-E30E1AEF75B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.3.2. Reading Web Pages from a Uri", "33.3.2. Reading Web Pages from a Uri\33.3.2. Reading Web Pages from a Uri.csproj", "{867FE296-1198-4E70-A224-6FE0EB33B005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.3.3. Use a regular expression to extract all fully", "33.3.3. Use a regular expression to extract all fully\33.3.3. Use a regular expression to extract all fully.csproj", "{DC1B652E-EED8-41D0-B472-A7173DEF6344}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -233,6 +241,18 @@ Global
 		{F3058A9A-2D9E-4D53-AB87-234A2C9E0A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3058A9A-2D9E-4D53-AB87-234A2C9E0A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3058A9A-2D9E-4D53-AB87-234A2C9E0A21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70119703-2B21-499C-8D52-E30E1AEF75B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70119703-2B21-499C-8D52-E30E1AEF75B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70119703-2B21-499C-8D52-E30E1AEF75B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70119703-2B21-499C-8D52-E30E1AEF75B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{867FE296-1198-4E70-A224-6FE0EB33B005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{867FE296-1198-4E70-A224-6FE0EB33B005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{867FE296-1198-4E70-A224-6FE0EB33B005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{867FE296-1198-4E70-A224-6FE0EB33B005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC1B652E-EED8-41D0-B472-A7173DEF6344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC1B652E-EED8-41D0-B472-A7173DEF6344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC1B652E-EED8-41D0-B472-A7173DEF6344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC1B652E-EED8-41D0-B472-A7173DEF6344}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -272,6 +292,9 @@ Global
 		{6575ECD8-66B7-48B1-9C8D-9D40FB342D93} = {66A8C3E6-0226-43EC-8242-0CCB2E9ECDFD}
 		{30052060-4135-49FD-9A1A-8085F534939B} = {66A8C3E6-0226-43EC-8242-0CCB2E9ECDFD}
 		{F3058A9A-2D9E-4D53-AB87-234A2C9E0A21} = {66A8C3E6-0226-43EC-8242-0CCB2E9ECDFD}
+		{70119703-2B21-499C-8D52-E30E1AEF75B1} = {F6E84BC0-63CB-4933-BA1A-5FF7793EAF01}
+		{867FE296-1198-4E70-A224-6FE0EB33B005} = {F6E84BC0-63CB-4933-BA1A-5FF7793EAF01}
+		{DC1B652E-EED8-41D0-B472-A7173DEF6344} = {F6E84BC0-63CB-4933-BA1A-5FF7793EAF01}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF3A1F22-B9E9-4137-9DD2-99E0A39FB330}
