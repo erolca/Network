@@ -9,9 +9,10 @@ class MainClass
     public static void Main()
     {
         
-        string data;
+       //string data;
         // IPEndPoint ip = new IPEndPoint(IPAddress.Any, 9999);
         Console.WriteLine("Hello, 22");
+       
         IPAddress ia = IPAddress.Parse("127.0.0.1");
         IPEndPoint ip = new IPEndPoint(ia, 9050);
 
@@ -25,8 +26,19 @@ class MainClass
         IPEndPoint newclient = (IPEndPoint)client.RemoteEndPoint;
         Console.WriteLine("Connected with {0} at port {1}", newclient.Address, newclient.Port);
 
-        Console.ReadLine();
 
-       
+        byte[] data = Encoding.ASCII.GetBytes("This is a test message");
+        Console.WriteLine("Disconnected from {0}", newclient.Address);
+        client.SendTo(data, newclient);
+        client.Close();
+       // socket.Close();
+
+
+
+
+        Console.ReadKey();
+      
+
+
     }
 }

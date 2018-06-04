@@ -105,6 +105,24 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.4.4. Display the connect
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.4.5. Socket sentTo", "33.4.5. Socket sentTo\33.4.5. Socket sentTo.csproj", "{5E174A2D-4AE3-4A7C-95C7-837F47F67E47}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Socket Client", "Socket Client", "{BCA6AC5C-31BF-4EA1-A193-101BBE39FFC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.5.1. Echo Client without message encoding", "33.5.1. Echo Client without message encoding\33.5.1. Echo Client without message encoding.csproj", "{6869F35A-DC1A-4A1A-8332-3BCB6A3317D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.5.2. Echo Client with UTF8 Encoding", "33.5.2. Echo Client with UTF8 Encoding\33.5.2. Echo Client with UTF8 Encoding.csproj", "{22901FE0-1328-4F59-A91F-853314AD4C76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.5.3. Socket connection", "33.5.3. Socket connection\33.5.3. Socket connection.csproj", "{286972DF-A5CE-48C7-BE2B-5C99CF111EB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.5.4. Send data using Socket", "33.5.4. Send data using Socket\33.5.4. Send data using Socket.csproj", "{8C2EF5FF-CD7C-4393-95B1-2E18544C4C0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.5.5. Simple Tcp Client receive data from server", "33.5.5. Simple Tcp Client receive data from server\33.5.5. Simple Tcp Client receive data from server.csproj", "{CE54EDE7-F59C-4265-A6FA-4BDE296C13BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.5.6. Simple Tcp Client  send data to the server", "33.5.6. Simple Tcp Client  send data to the server\33.5.6. Simple Tcp Client  send data to the server.csproj", "{031CEF5D-72C9-4A53-8859-65543B82B3DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.5.7. Simple Tcp server send data to the client", "33.5.7. Simple Tcp server send data to the client\33.5.7. Simple Tcp server send data to the client.csproj", "{42A55786-4A1F-47AB-A1BE-417D66C8CF6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.5.8. GUI based Tcp Client", "33.5.8. GUI based Tcp Client\33.5.8. GUI based Tcp Client.csproj", "{B695A6B6-7027-42CA-B6C2-95AF92C4BAA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -291,6 +309,38 @@ Global
 		{5E174A2D-4AE3-4A7C-95C7-837F47F67E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E174A2D-4AE3-4A7C-95C7-837F47F67E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E174A2D-4AE3-4A7C-95C7-837F47F67E47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6869F35A-DC1A-4A1A-8332-3BCB6A3317D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6869F35A-DC1A-4A1A-8332-3BCB6A3317D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6869F35A-DC1A-4A1A-8332-3BCB6A3317D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6869F35A-DC1A-4A1A-8332-3BCB6A3317D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22901FE0-1328-4F59-A91F-853314AD4C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22901FE0-1328-4F59-A91F-853314AD4C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22901FE0-1328-4F59-A91F-853314AD4C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22901FE0-1328-4F59-A91F-853314AD4C76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{286972DF-A5CE-48C7-BE2B-5C99CF111EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286972DF-A5CE-48C7-BE2B-5C99CF111EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286972DF-A5CE-48C7-BE2B-5C99CF111EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286972DF-A5CE-48C7-BE2B-5C99CF111EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C2EF5FF-CD7C-4393-95B1-2E18544C4C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C2EF5FF-CD7C-4393-95B1-2E18544C4C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C2EF5FF-CD7C-4393-95B1-2E18544C4C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2EF5FF-CD7C-4393-95B1-2E18544C4C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE54EDE7-F59C-4265-A6FA-4BDE296C13BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE54EDE7-F59C-4265-A6FA-4BDE296C13BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE54EDE7-F59C-4265-A6FA-4BDE296C13BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE54EDE7-F59C-4265-A6FA-4BDE296C13BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{031CEF5D-72C9-4A53-8859-65543B82B3DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{031CEF5D-72C9-4A53-8859-65543B82B3DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{031CEF5D-72C9-4A53-8859-65543B82B3DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{031CEF5D-72C9-4A53-8859-65543B82B3DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42A55786-4A1F-47AB-A1BE-417D66C8CF6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A55786-4A1F-47AB-A1BE-417D66C8CF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A55786-4A1F-47AB-A1BE-417D66C8CF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A55786-4A1F-47AB-A1BE-417D66C8CF6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B695A6B6-7027-42CA-B6C2-95AF92C4BAA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B695A6B6-7027-42CA-B6C2-95AF92C4BAA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B695A6B6-7027-42CA-B6C2-95AF92C4BAA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B695A6B6-7027-42CA-B6C2-95AF92C4BAA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -339,6 +389,14 @@ Global
 		{F5EC322C-D3A9-494A-A9DE-B32EFF456366} = {A5E9FCBD-1954-4168-A82E-ADE3F5F73248}
 		{A9DE5F92-4D73-4702-B55D-79CA256D5C19} = {A5E9FCBD-1954-4168-A82E-ADE3F5F73248}
 		{5E174A2D-4AE3-4A7C-95C7-837F47F67E47} = {A5E9FCBD-1954-4168-A82E-ADE3F5F73248}
+		{6869F35A-DC1A-4A1A-8332-3BCB6A3317D3} = {BCA6AC5C-31BF-4EA1-A193-101BBE39FFC0}
+		{22901FE0-1328-4F59-A91F-853314AD4C76} = {BCA6AC5C-31BF-4EA1-A193-101BBE39FFC0}
+		{286972DF-A5CE-48C7-BE2B-5C99CF111EB9} = {BCA6AC5C-31BF-4EA1-A193-101BBE39FFC0}
+		{8C2EF5FF-CD7C-4393-95B1-2E18544C4C0D} = {BCA6AC5C-31BF-4EA1-A193-101BBE39FFC0}
+		{CE54EDE7-F59C-4265-A6FA-4BDE296C13BA} = {BCA6AC5C-31BF-4EA1-A193-101BBE39FFC0}
+		{031CEF5D-72C9-4A53-8859-65543B82B3DD} = {BCA6AC5C-31BF-4EA1-A193-101BBE39FFC0}
+		{42A55786-4A1F-47AB-A1BE-417D66C8CF6C} = {BCA6AC5C-31BF-4EA1-A193-101BBE39FFC0}
+		{B695A6B6-7027-42CA-B6C2-95AF92C4BAA1} = {BCA6AC5C-31BF-4EA1-A193-101BBE39FFC0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF3A1F22-B9E9-4137-9DD2-99E0A39FB330}
