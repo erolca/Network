@@ -123,6 +123,24 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.5.7. Simple Tcp server s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.5.8. GUI based Tcp Client", "33.5.8. GUI based Tcp Client\33.5.8. GUI based Tcp Client.csproj", "{B695A6B6-7027-42CA-B6C2-95AF92C4BAA1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Socket Server", "Socket Server", "{13C31FD6-B501-49C9-B215-E3B09DE194CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.6.1. Listen for Socket Request in Thread", "33.6.1. Listen for Socket Request in Thread\33.6.1. Listen for Socket Request in Thread.csproj", "{74CBFD55-1CAE-4997-9C46-7F011812D322}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.6.2. Use background thread to deal with the Server", "33.6.2. Use background thread to deal with the Server\33.6.2. Use background thread to deal with the Server.csproj", "{187CE399-6C91-445E-B97B-E6E8ED5C177B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.6.3. Accepting a socket connection", "33.6.3. Accepting a socket connection\33.6.3. Accepting a socket connection.csproj", "{C0B3984A-B78B-4B2C-A12E-CC807569285B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.6.4. Simple Tcp server  Receive data from a client", "33.6.4. Simple Tcp server  Receive data from a client\33.6.4. Simple Tcp server  Receive data from a client.csproj", "{98128667-C7A7-4B94-A12E-FBBF283BA796}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.6.5. Tcp server use StreamWriter and StreamReader", "33.6.5. Tcp server use StreamWriter and StreamReader\33.6.5. Tcp server use StreamWriter and StreamReader.csproj", "{29B25E39-4965-433C-8714-FDCCC770516A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.6.6. GUI based Tcp Server", "33.6.6. GUI based Tcp Server\33.6.6. GUI based Tcp Server.csproj", "{1AA3DE02-3D81-4D43-BDC7-4A235A841C6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.6.7. Tcp server based on Thread", "33.6.7. Tcp server based on Thread\33.6.7. Tcp server based on Thread.csproj", "{ACDB1E5B-723D-4438-9B97-F70B84B86910}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.6.8. ThreadPool based Tcp server", "33.6.8. ThreadPool based Tcp server\33.6.8. ThreadPool based Tcp server.csproj", "{F5D9107C-CF9A-4C22-BAF3-12BEBFFD275A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -341,6 +359,38 @@ Global
 		{B695A6B6-7027-42CA-B6C2-95AF92C4BAA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B695A6B6-7027-42CA-B6C2-95AF92C4BAA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B695A6B6-7027-42CA-B6C2-95AF92C4BAA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74CBFD55-1CAE-4997-9C46-7F011812D322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74CBFD55-1CAE-4997-9C46-7F011812D322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74CBFD55-1CAE-4997-9C46-7F011812D322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74CBFD55-1CAE-4997-9C46-7F011812D322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{187CE399-6C91-445E-B97B-E6E8ED5C177B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{187CE399-6C91-445E-B97B-E6E8ED5C177B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{187CE399-6C91-445E-B97B-E6E8ED5C177B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{187CE399-6C91-445E-B97B-E6E8ED5C177B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B3984A-B78B-4B2C-A12E-CC807569285B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B3984A-B78B-4B2C-A12E-CC807569285B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B3984A-B78B-4B2C-A12E-CC807569285B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B3984A-B78B-4B2C-A12E-CC807569285B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98128667-C7A7-4B94-A12E-FBBF283BA796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98128667-C7A7-4B94-A12E-FBBF283BA796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98128667-C7A7-4B94-A12E-FBBF283BA796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98128667-C7A7-4B94-A12E-FBBF283BA796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29B25E39-4965-433C-8714-FDCCC770516A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B25E39-4965-433C-8714-FDCCC770516A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B25E39-4965-433C-8714-FDCCC770516A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B25E39-4965-433C-8714-FDCCC770516A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AA3DE02-3D81-4D43-BDC7-4A235A841C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA3DE02-3D81-4D43-BDC7-4A235A841C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA3DE02-3D81-4D43-BDC7-4A235A841C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA3DE02-3D81-4D43-BDC7-4A235A841C6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACDB1E5B-723D-4438-9B97-F70B84B86910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDB1E5B-723D-4438-9B97-F70B84B86910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDB1E5B-723D-4438-9B97-F70B84B86910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDB1E5B-723D-4438-9B97-F70B84B86910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5D9107C-CF9A-4C22-BAF3-12BEBFFD275A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5D9107C-CF9A-4C22-BAF3-12BEBFFD275A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5D9107C-CF9A-4C22-BAF3-12BEBFFD275A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5D9107C-CF9A-4C22-BAF3-12BEBFFD275A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -397,6 +447,14 @@ Global
 		{031CEF5D-72C9-4A53-8859-65543B82B3DD} = {BCA6AC5C-31BF-4EA1-A193-101BBE39FFC0}
 		{42A55786-4A1F-47AB-A1BE-417D66C8CF6C} = {BCA6AC5C-31BF-4EA1-A193-101BBE39FFC0}
 		{B695A6B6-7027-42CA-B6C2-95AF92C4BAA1} = {BCA6AC5C-31BF-4EA1-A193-101BBE39FFC0}
+		{74CBFD55-1CAE-4997-9C46-7F011812D322} = {13C31FD6-B501-49C9-B215-E3B09DE194CF}
+		{187CE399-6C91-445E-B97B-E6E8ED5C177B} = {13C31FD6-B501-49C9-B215-E3B09DE194CF}
+		{C0B3984A-B78B-4B2C-A12E-CC807569285B} = {13C31FD6-B501-49C9-B215-E3B09DE194CF}
+		{98128667-C7A7-4B94-A12E-FBBF283BA796} = {13C31FD6-B501-49C9-B215-E3B09DE194CF}
+		{29B25E39-4965-433C-8714-FDCCC770516A} = {13C31FD6-B501-49C9-B215-E3B09DE194CF}
+		{1AA3DE02-3D81-4D43-BDC7-4A235A841C6A} = {13C31FD6-B501-49C9-B215-E3B09DE194CF}
+		{ACDB1E5B-723D-4438-9B97-F70B84B86910} = {13C31FD6-B501-49C9-B215-E3B09DE194CF}
+		{F5D9107C-CF9A-4C22-BAF3-12BEBFFD275A} = {13C31FD6-B501-49C9-B215-E3B09DE194CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF3A1F22-B9E9-4137-9DD2-99E0A39FB330}

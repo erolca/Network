@@ -35,6 +35,7 @@ class MainClass
             int receivedDataLength = server.Receive(data);
             string stringData = Encoding.ASCII.GetString(data, 0, receivedDataLength);
             Console.WriteLine(stringData);
+            
         }
 
         server.Shutdown(SocketShutdown.Both);

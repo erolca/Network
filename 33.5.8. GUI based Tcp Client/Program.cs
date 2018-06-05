@@ -150,4 +150,16 @@ public class AsyncTcpClient : Form
     {
         Application.Run(new AsyncTcpClient());
     }
+
+    private void InitializeComponent()
+    {
+            this.SuspendLayout();
+            // 
+            // AsyncTcpClient
+            // 
+            this.ClientSize = new System.Drawing.Size(395, 382);
+            this.Name = "AsyncTcpClient";
+            this.ResumeLayout(false);
+
+    }
 }

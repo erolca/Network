@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B695A6B6-7027-42CA-B6C2-95AF92C4BAA1}</ProjectGuid>
+    <ProjectGuid>{F5D9107C-CF9A-4C22-BAF3-12BEBFFD275A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_33._5._8.GUI_based_Tcp_Client</RootNamespace>
-    <AssemblyName>_33._5._8.GUI_based_Tcp_Client</AssemblyName>
+    <RootNamespace>_33._6._8.ThreadPool_based_Tcp_server</RootNamespace>
+    <AssemblyName>_33._6._8.ThreadPool_based_Tcp_server</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,8 +34,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,18 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Program.resx">
-      <DependentUpon>Program.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
