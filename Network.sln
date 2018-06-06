@@ -141,6 +141,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.6.7. Tcp server based on
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.6.8. ThreadPool based Tcp server", "33.6.8. ThreadPool based Tcp server\33.6.8. ThreadPool based Tcp server.csproj", "{F5D9107C-CF9A-4C22-BAF3-12BEBFFD275A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpListener", "TcpListener\TcpListener.csproj", "{9E901C1A-93DE-4990-A51C-E0F689EF8C6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -391,6 +393,10 @@ Global
 		{F5D9107C-CF9A-4C22-BAF3-12BEBFFD275A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5D9107C-CF9A-4C22-BAF3-12BEBFFD275A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5D9107C-CF9A-4C22-BAF3-12BEBFFD275A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E901C1A-93DE-4990-A51C-E0F689EF8C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E901C1A-93DE-4990-A51C-E0F689EF8C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E901C1A-93DE-4990-A51C-E0F689EF8C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E901C1A-93DE-4990-A51C-E0F689EF8C6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -455,6 +461,7 @@ Global
 		{1AA3DE02-3D81-4D43-BDC7-4A235A841C6A} = {13C31FD6-B501-49C9-B215-E3B09DE194CF}
 		{ACDB1E5B-723D-4438-9B97-F70B84B86910} = {13C31FD6-B501-49C9-B215-E3B09DE194CF}
 		{F5D9107C-CF9A-4C22-BAF3-12BEBFFD275A} = {13C31FD6-B501-49C9-B215-E3B09DE194CF}
+		{9E901C1A-93DE-4990-A51C-E0F689EF8C6C} = {13C31FD6-B501-49C9-B215-E3B09DE194CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF3A1F22-B9E9-4137-9DD2-99E0A39FB330}
