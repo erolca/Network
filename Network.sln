@@ -143,6 +143,28 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.6.8. ThreadPool based Tc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpListener", "TcpListener\TcpListener.csproj", "{9E901C1A-93DE-4990-A51C-E0F689EF8C6C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TcpClient", "TcpClient", "{27D585C6-F79E-4D8F-9AFD-22C75F73482D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.7.1. Creating Socket Connections", "33.7.1. Creating Socket Connections\33.7.1. Creating Socket Connections.csproj", "{1EFC86DC-15E3-4945-BD24-4291028E7783}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.7.2. Use a NetworkStream to read from a server", "33.7.2. Use a NetworkStream to read from a server\33.7.2. Use a NetworkStream to read from a server.csproj", "{81B50930-407D-455A-97FC-FFAB05AA1AD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.7.3. Create NetworkStream from TcpClient", "33.7.3. Create NetworkStream from TcpClient\33.7.3. Create NetworkStream from TcpClient.csproj", "{CE45A283-38A2-433A-86CC-840D772C30AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.7.4. use TcpClient to connect to a server", "33.7.4. use TcpClient to connect to a server\33.7.4. use TcpClient to connect to a server.csproj", "{22AB8D4F-88B0-410E-8F1A-CB93807ADF56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.7.5. Create BinaryWriter and BinaryReader", "33.7.5. Create BinaryWriter and BinaryReader\33.7.5. Create BinaryWriter and BinaryReader.csproj", "{1FF432E8-728E-4106-A7C1-B4DE97711175}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.7.6. Use TcpClient to write to read from a server", "33.7.6. Use TcpClient to write to read from a server\33.7.6. Use TcpClient to write to read from a server.csproj", "{0EE2AAF1-D82A-4E33-996E-75DB3EF27B19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.7.7. Network Client and StreamReader", "33.7.7. Network Client and StreamReader\33.7.7. Network Client and StreamReader.csproj", "{2C7EEA50-A381-4E3A-89BB-ED355C1F9CA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.7.8.TcpClient and NetworkStream", "33.7.8.TcpClient and NetworkStream\33.7.8.TcpClient and NetworkStream.csproj", "{EA5B9FF0-E6AA-4710-B087-04F2A570D61C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.7.9. Write string to server", "33.7.9. Write string to server\33.7.9. Write string to server.csproj", "{F4C50AA8-DD2C-412F-9CFA-CC84A594D822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33.7.10. Read csv demo", "33.7.10. Read csv demo\33.7.10. Read csv demo.csproj", "{581BFEF9-B8E4-4DB4-86FE-9702F5FD5CC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -397,6 +419,46 @@ Global
 		{9E901C1A-93DE-4990-A51C-E0F689EF8C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E901C1A-93DE-4990-A51C-E0F689EF8C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E901C1A-93DE-4990-A51C-E0F689EF8C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EFC86DC-15E3-4945-BD24-4291028E7783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EFC86DC-15E3-4945-BD24-4291028E7783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EFC86DC-15E3-4945-BD24-4291028E7783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EFC86DC-15E3-4945-BD24-4291028E7783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81B50930-407D-455A-97FC-FFAB05AA1AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B50930-407D-455A-97FC-FFAB05AA1AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B50930-407D-455A-97FC-FFAB05AA1AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B50930-407D-455A-97FC-FFAB05AA1AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE45A283-38A2-433A-86CC-840D772C30AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE45A283-38A2-433A-86CC-840D772C30AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE45A283-38A2-433A-86CC-840D772C30AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE45A283-38A2-433A-86CC-840D772C30AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22AB8D4F-88B0-410E-8F1A-CB93807ADF56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22AB8D4F-88B0-410E-8F1A-CB93807ADF56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22AB8D4F-88B0-410E-8F1A-CB93807ADF56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22AB8D4F-88B0-410E-8F1A-CB93807ADF56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FF432E8-728E-4106-A7C1-B4DE97711175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF432E8-728E-4106-A7C1-B4DE97711175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF432E8-728E-4106-A7C1-B4DE97711175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF432E8-728E-4106-A7C1-B4DE97711175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EE2AAF1-D82A-4E33-996E-75DB3EF27B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE2AAF1-D82A-4E33-996E-75DB3EF27B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE2AAF1-D82A-4E33-996E-75DB3EF27B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE2AAF1-D82A-4E33-996E-75DB3EF27B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C7EEA50-A381-4E3A-89BB-ED355C1F9CA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C7EEA50-A381-4E3A-89BB-ED355C1F9CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C7EEA50-A381-4E3A-89BB-ED355C1F9CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C7EEA50-A381-4E3A-89BB-ED355C1F9CA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA5B9FF0-E6AA-4710-B087-04F2A570D61C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA5B9FF0-E6AA-4710-B087-04F2A570D61C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA5B9FF0-E6AA-4710-B087-04F2A570D61C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA5B9FF0-E6AA-4710-B087-04F2A570D61C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4C50AA8-DD2C-412F-9CFA-CC84A594D822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4C50AA8-DD2C-412F-9CFA-CC84A594D822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4C50AA8-DD2C-412F-9CFA-CC84A594D822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4C50AA8-DD2C-412F-9CFA-CC84A594D822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{581BFEF9-B8E4-4DB4-86FE-9702F5FD5CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{581BFEF9-B8E4-4DB4-86FE-9702F5FD5CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{581BFEF9-B8E4-4DB4-86FE-9702F5FD5CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{581BFEF9-B8E4-4DB4-86FE-9702F5FD5CC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -462,6 +524,16 @@ Global
 		{ACDB1E5B-723D-4438-9B97-F70B84B86910} = {13C31FD6-B501-49C9-B215-E3B09DE194CF}
 		{F5D9107C-CF9A-4C22-BAF3-12BEBFFD275A} = {13C31FD6-B501-49C9-B215-E3B09DE194CF}
 		{9E901C1A-93DE-4990-A51C-E0F689EF8C6C} = {13C31FD6-B501-49C9-B215-E3B09DE194CF}
+		{1EFC86DC-15E3-4945-BD24-4291028E7783} = {27D585C6-F79E-4D8F-9AFD-22C75F73482D}
+		{81B50930-407D-455A-97FC-FFAB05AA1AD2} = {27D585C6-F79E-4D8F-9AFD-22C75F73482D}
+		{CE45A283-38A2-433A-86CC-840D772C30AA} = {27D585C6-F79E-4D8F-9AFD-22C75F73482D}
+		{22AB8D4F-88B0-410E-8F1A-CB93807ADF56} = {27D585C6-F79E-4D8F-9AFD-22C75F73482D}
+		{1FF432E8-728E-4106-A7C1-B4DE97711175} = {27D585C6-F79E-4D8F-9AFD-22C75F73482D}
+		{0EE2AAF1-D82A-4E33-996E-75DB3EF27B19} = {27D585C6-F79E-4D8F-9AFD-22C75F73482D}
+		{2C7EEA50-A381-4E3A-89BB-ED355C1F9CA4} = {27D585C6-F79E-4D8F-9AFD-22C75F73482D}
+		{EA5B9FF0-E6AA-4710-B087-04F2A570D61C} = {27D585C6-F79E-4D8F-9AFD-22C75F73482D}
+		{F4C50AA8-DD2C-412F-9CFA-CC84A594D822} = {27D585C6-F79E-4D8F-9AFD-22C75F73482D}
+		{581BFEF9-B8E4-4DB4-86FE-9702F5FD5CC0} = {27D585C6-F79E-4D8F-9AFD-22C75F73482D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DF3A1F22-B9E9-4137-9DD2-99E0A39FB330}

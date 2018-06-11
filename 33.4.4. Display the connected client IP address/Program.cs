@@ -11,8 +11,6 @@ class MainClass
         
        //string data;
         // IPEndPoint ip = new IPEndPoint(IPAddress.Any, 9999);
-        Console.WriteLine("Hello, 22");
-       
         IPAddress ia = IPAddress.Parse("127.0.0.1");
         IPEndPoint ip = new IPEndPoint(ia, 9050);
 
